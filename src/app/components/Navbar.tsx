@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const Navbar = () => {
     return (
-        <nav className="sticky top-0 bg-white shadow-md">
-            <div className="container mx-auto px-4 py-2 flex justify-end items-center">
+        <nav className="sticky top-0 bg-white w-full">
+            <div className="mx-auto px-4 py-2 flex justify-end items-center">
                 <Image
-                    src="/path/to/hex-logo.png"
+                    src="/assets/hexlogo.jpeg"
                     alt="Hex Logo"
                     width={40}
                     height={40}
